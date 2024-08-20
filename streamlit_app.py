@@ -44,7 +44,7 @@ def main():
     # Display other text with fixed size and centered alignment
     st.markdown("""
         <p style="text-align: center; font-size: 22px; margin: 0; padding: 0;">
-            Here is some smaller, centered text that is still prominent.
+            A simple app to help generate song lyrics ideas.
         </p>
         """, unsafe_allow_html=True)
 
