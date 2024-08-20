@@ -17,34 +17,43 @@ ideas = load_data()
 # Streamlit app
 def main():
     # Rainbow-colored title
+    # st.markdown("""
+    #     <div style="text-align: center; margin: 0; padding: 0;">
+    #         <span style="font-size: 40px; color: red;">S</span>
+    #         <span style="font-size: 40px; color: orange;">o</span>
+    #         <span style="font-size: 40px; color: yellow;">n</span>
+    #         <span style="font-size: 40px; color: green;">g</span>
+    #         <span style="font-size: 40px; color: blue;">&nbsp;</span>
+    #         <span style="font-size: 40px; color: blue;">I</span>
+    #         <span style="font-size: 40px; color: indigo;">d</span>
+    #         <span style="font-size: 40px; color: violet;">e</span>
+    #         <span style="font-size: 40px; color: red;">a</span>
+    #         <span style="font-size: 40px; color: orange;">&nbsp;</span>
+    #         <span style="font-size: 40px; color: yellow;">G</span>
+    #         <span style="font-size: 40px; color: green;">e</span>
+    #         <span style="font-size: 40px; color: blue;">n</span>
+    #         <span style="font-size: 40px; color: indigo;">e</span>
+    #         <span style="font-size: 40px; color: violet;">r</span>
+    #         <span style="font-size: 40px; color: red;">a</span>
+    #         <span style="font-size: 40px; color: orange;">t</span>
+    #         <span style="font-size: 40px; color: yellow;">o</span>
+    #         <span style="font-size: 40px; color: green;">r</span>
+    #     </div>
+    #     """, unsafe_allow_html=True)
     st.markdown("""
         <div style="text-align: center; margin: 0; padding: 0;">
-            <span style="font-size: 40px; color: red;">S</span>
-            <span style="font-size: 40px; color: orange;">o</span>
-            <span style="font-size: 40px; color: yellow;">n</span>
-            <span style="font-size: 40px; color: green;">g</span>
+            <span style="font-size: 40px; color: MediumSlateBlue;">Song</span>
             <span style="font-size: 40px; color: blue;">&nbsp;</span>
-            <span style="font-size: 40px; color: blue;">I</span>
-            <span style="font-size: 40px; color: indigo;">d</span>
-            <span style="font-size: 40px; color: violet;">e</span>
-            <span style="font-size: 40px; color: red;">a</span>
-            <span style="font-size: 40px; color: orange;">&nbsp;</span>
-            <span style="font-size: 40px; color: yellow;">G</span>
-            <span style="font-size: 40px; color: green;">e</span>
-            <span style="font-size: 40px; color: blue;">n</span>
-            <span style="font-size: 40px; color: indigo;">e</span>
-            <span style="font-size: 40px; color: violet;">r</span>
-            <span style="font-size: 40px; color: red;">a</span>
-            <span style="font-size: 40px; color: orange;">t</span>
-            <span style="font-size: 40px; color: yellow;">o</span>
-            <span style="font-size: 40px; color: green;">r</span>
+            <span style="font-size: 40px; color: MediumPurple;">Idea</span>
+            <span style="font-size: 40px; color: yellow;">&nbsp;</span>
+            <span style="font-size: 40px; color: MediumOrchid;">Generator</span>
         </div>
         """, unsafe_allow_html=True)
 
     # Display other text with fixed size and centered alignment
     st.markdown("""
         <p style="text-align: center; font-size: 22px; margin: 0; padding: 0;">
-            A simple app to help generate song lyrics ideas.
+            A simple app to help generate song lyrics ideas
         </p>
         """, unsafe_allow_html=True)
 
