@@ -50,6 +50,12 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
+    st.markdown("""
+        <p style="text-align: center; font-size: 6px; margin: 0; padding: 0;">
+             
+        </p>
+        """, unsafe_allow_html=True)
+
     # Display other text with fixed size and centered alignment
     st.markdown("""
         <p style="text-align: center; font-size: 22px; margin: 0; padding: 0;">
@@ -58,7 +64,7 @@ def main():
         """, unsafe_allow_html=True)
 
     st.markdown("""
-        <p style="text-align: center; font-size: 12px; margin: 0; padding: 0;">
+        <p style="text-align: center; font-size: 28px; margin: 0; padding: 0;">
              
         </p>
         """, unsafe_allow_html=True)
